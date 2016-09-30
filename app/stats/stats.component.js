@@ -7,7 +7,8 @@ angular.
     templateUrl: 'stats/stats.template.html',
     controller: ['Stats', '$window',
       function StatsController(Stats, $window) {
-        var self = this;
+        const self = this;
+        
         self.loved = Stats.getLiked();
         self.hated = Stats.getDisliked();
         self.lovedNames = _.map(self.loved, r => r.name);

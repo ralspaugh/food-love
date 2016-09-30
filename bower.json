@@ -12,6 +12,7 @@
     "angular-route": "1.5.x",
     "bootstrap": "3.3.x",
     "lodash": "^4.16.2",
-    "angular-cookies": "^1.5.8"
+    "angular-cookies": "^1.5.8",
+    "immutable": "^3.8.1"
   }
 }

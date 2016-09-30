@@ -6,7 +6,7 @@ angular.
   component('help', {
     templateUrl: 'help/help.template.html',
     controller: function HelpController() {
-      var self = this;
+      const self = this;
       const imagePaths = [
         "img/help/help1.png",
         "img/help/help2.png",

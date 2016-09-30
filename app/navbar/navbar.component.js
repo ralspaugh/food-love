@@ -6,7 +6,7 @@ angular.
   component('navbar', {
     templateUrl: 'navbar/navbar.template.html',
     controller: function NavbarController() {
-      var self = this;
+      const self = this;
       self.title = 'Food Love 💕';
       self.menuItems = [
         {
@@ -18,6 +18,5 @@ angular.
           ref: '/#!/help'
         }
       ];
-      // Controller logic
     }
   });
