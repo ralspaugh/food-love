@@ -1,0 +1,11 @@
+<div class="col-md-1 gustar">
+  <a href ng-click="$ctrl.getNextRestaurant($ctrl.currentRestaurant, false)" class="center-block">😷</a>
+</div>
+
+<div class="col-md-12 main-content">
+  <img ng-src="{{$ctrl.currentRestaurant.image}}" class="center-block"/>
+</div>
+
+<div class="col-md-1 gustar">
+  <a href ng-click="$ctrl.getNextRestaurant($ctrl.currentRestaurant, true)" class="center-block">😋</a>
+</div>

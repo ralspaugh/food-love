@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Halal Guys",
+    "category": ["Halal", "Mediterranean", "Gyro", "Chicken", "Falafel", "Wraps", "Customization", "New York"],
+    "image": "img/restaurants/halalguys.png"
+  },
+  {
+    "id": 2,
+    "name": "Freshii",
+    "category": ["Healthy", "Wraps", "Salads", "Soup", "Bowls", "Customization"],
+    "image": "img/restaurants/freshii.png"
+  },
+  {
+    "id": 3,
+    "name": "McDonald's",
+    "category": ["Not healthy", "Fast food", "Burgers", "French fries", "Breakfast", "Fried food"],
+    "image": "img/restaurants/mcd.png"
+  },
+  {
+    "id": 4,
+    "name": "Hannah's Bretzel",
+    "category": ["European", "Sandwiches", "Salads", "Deli", "Chocolate", "Pretzel", "Customization"],
+    "image": "img/restaurants/hannahsbretzel.png"
+  },
+  {
+    "id": 5,
+    "name": "Shake Shack",
+    "category": ["Burgers", "Shakes", "Sausages", "French fries", "Not healthy", "New York"],
+    "image": "img/restaurants/shakeshack.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Panda Express",
+    "category": ["Chinese", "Unhealthy", "Orange chicken", "Fried rice"],
+    "image": "img/restaurants/pandaexpress.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Naf Naf Grill",
+    "category": ["Mediterranean", "Quick", "Customization", "Shawarma", "Chicken", "Wraps", "Bowls", "Salads"],
+    "image": "img/restaurants/nafnaf.jpg"
+  }
+]

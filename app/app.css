@@ -1,0 +1,43 @@
+/* app css stylesheet */
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.main-content {
+  width: auto;
+  height: 300px;
+  padding: 5px;
+}
+
+.main-content img {
+  height: 300px;
+  padding: inherit;
+}
+
+.gustar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 150px;
+  padding: 5px;
+}
+
+.gustar a {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 100px;
+  padding: inherit;
+}
+
+a:hover, a:link, a:visited {
+  text-decoration: none;
+}
+
+.stat {
+  height: 125px;
+}

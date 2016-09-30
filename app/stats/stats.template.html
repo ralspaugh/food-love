@@ -1,0 +1,31 @@
+<div class="col-md-6 stat pre-scrollable">
+  <h4>Loved Restaurants</h4>
+  <ul>
+    <li ng-repeat="name in $ctrl.lovedNames">{{name}}</li>
+  </ul>
+</div>
+
+<div class="col-md-6 stat pre-scrollable">
+  <h4>Hated Restaurants</h4>
+  <ul>
+    <li ng-repeat="name in $ctrl.hatedNames">{{name}}</li>
+  </ul>
+</div>
+
+<div class="col-md-6 stat pre-scrollable">
+  <h4>Favorite Categories</h4>
+  <ol>
+    <li ng-repeat="cat in $ctrl.favoriteCategories">{{cat}}</li>
+  </ol>
+</div>
+
+<div class="col-md-6 stat pre-scrollable">
+  <h4>Most Hated Categories</h4>
+  <ol>
+    <li ng-repeat="cat in $ctrl.mostHatedCategories">{{cat}}</li>
+  </ol>
+</div>
+
+<div class="col-md-12">
+  <button type="button" ng-click="$ctrl.clear()">Clear Stats</button>
+</div>

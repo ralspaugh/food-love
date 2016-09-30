@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" ng-app="foodloveApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Food Love 💕</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="app.css" />
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="core/core.module.js"></script>
+    <script src="core/restaurants/restaurants.module.js"></script>
+    <script src="core/restaurants/restaurants.service.js"></script>
+    <script src="core/stats/stats.module.js"></script>
+    <script src="core/stats/stats.service.js"></script>
+    <script src="help/help.module.js"></script>
+    <script src="help/help.component.js"></script>
+    <script src="swipe/swipe.module.js"></script>
+    <script src="swipe/swipe.component.js"></script>
+    <script src="navbar/navbar.module.js"></script>
+    <script src="navbar/navbar.component.js"></script>
+    <script src="stats/stats.module.js"></script>
+    <script src="stats/stats.component.js"></script>
+  </head>
+  <body>
+
+    <div class="view-container">
+      <navbar></navbar>
+      <div ng-view class="view-frame centered"></div>
+    </div>
+
+  </body>
+</html>
